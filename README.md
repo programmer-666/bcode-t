@@ -1,4 +1,10 @@
 # bcode-t
-Converting the numbers in the data set in CSV format into barcodes to be used in the identification of machines.
 
-Just a basic code.
+It's a basic number to Code128 converter program.
+
+## Logic
+- Reads numbers from csv file (wMachineCodes.csv).
+- Creates barcode.
+- Writes barcode into "barcodes" file.
+
+Compatible Python3.9+.
